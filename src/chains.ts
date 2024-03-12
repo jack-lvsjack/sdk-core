@@ -17,27 +17,31 @@ export enum ChainId {
   BNB = 56,
   AVALANCHE = 43114,
   BASE_GOERLI = 84531,
-  BASE = 8453
+  BASE = 8453,
+  ZKATANA = 1261120,
+  ZKEVM = 3776
 }
 
 export const SUPPORTED_CHAINS = [
-  ChainId.MAINNET,
-  ChainId.OPTIMISM,
-  ChainId.OPTIMISM_GOERLI,
-  ChainId.OPTIMISM_SEPOLIA,
-  ChainId.ARBITRUM_ONE,
-  ChainId.ARBITRUM_GOERLI,
-  ChainId.ARBITRUM_SEPOLIA,
-  ChainId.POLYGON,
-  ChainId.POLYGON_MUMBAI,
-  ChainId.GOERLI,
-  ChainId.SEPOLIA,
-  ChainId.CELO_ALFAJORES,
-  ChainId.CELO,
-  ChainId.BNB,
-  ChainId.AVALANCHE,
-  ChainId.BASE,
-  ChainId.BASE_GOERLI
+  // ChainId.MAINNET,
+  // ChainId.OPTIMISM,
+  // ChainId.OPTIMISM_GOERLI,
+  // ChainId.OPTIMISM_SEPOLIA,
+  // ChainId.ARBITRUM_ONE,
+  // ChainId.ARBITRUM_GOERLI,
+  // ChainId.ARBITRUM_SEPOLIA,
+  // ChainId.POLYGON,
+  // ChainId.POLYGON_MUMBAI,
+  // ChainId.GOERLI,
+  // ChainId.SEPOLIA,
+  // ChainId.CELO_ALFAJORES,
+  // ChainId.CELO,
+  // ChainId.BNB,
+  // ChainId.AVALANCHE,
+  // ChainId.BASE,
+  // ChainId.BASE_GOERLI,
+  ChainId.ZKATANA,
+  ChainId.ZKEVM
 ] as const
 export type SupportedChainsType = typeof SUPPORTED_CHAINS[number]
 
